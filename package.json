@@ -1,0 +1,30 @@
+{
+  "name": "to-do-aplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/js/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "server": "json-server db.json",
+    "dev": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavIdHabeTyan/ToDo_2022.git"
+  },
+  "keywords": [
+    "Armenia",
+    "Yerevan"
+  ],
+  "author": "David Habetyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavIdHabeTyan/ToDo_2022/issues"
+  },
+  "homepage": "https://github.com/DavIdHabeTyan/ToDo_2022#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
